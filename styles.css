@@ -1,0 +1,23 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(165, 199, 234);
+} 
+h1,h2{
+    font-size: large;
+}
+
+p{
+    color:blue
+}
+article{
+    color: rgb(15, 120, 211)
+}
+#btn{
+    background-color: rgb(160, 95, 139);
+    font-size: medium;
+    color: blue;
+}
+nav{
+    background-color: cadetblue;
+    height: 250px;
+}
