@@ -1,23 +1,28 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
     background-color: rgb(165, 199, 234);
 } 
 h1,h2{
     font-size: large;
+    color: chocolate;
+    text-decoration: underline;
 }
 
-p{
+p, article{
     color:blue
 }
-article{
-    color: rgb(15, 120, 211)
-}
+
 #btn{
     background-color: rgb(160, 95, 139);
     font-size: medium;
-    color: blue;
+    color: rgb(120, 94, 29);
 }
 nav{
     background-color: cadetblue;
     height: 250px;
+    border: 3px, dashed, black;
+}
+label > form {
+    text-align: left;
 }
