@@ -5,22 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 <body> 
-  <hearder>
-   <center>
-    <nav>
-    <h1>A&A STORE</h1>
-    <br> 
-    <h2>F<span style="color:rgb(255, 0, 0);font-weight:bold;">A&A</span>chion</h2>
-     <h3>Welcome
-       <br> 
-      Soyez les bienvenu(e)s
-       <br>
-      مرحبابكم 
-    </h3> 
-    </nav> 
-  </hearder>
+  <header>
+   
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img src="télécharger.jpeg" height="150px" width="300px">
+      </a>
+     <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact Us</a>
+        </li>
+      </ul>
+<!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="text-reset me-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+
+      <!-- Notifications -->
+      <div class="dropdown">
+        <a
+          data-mdb-dropdown-init
+          class="text-reset me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          aria-expanded="false"
+        >
+         
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+         
+      </div>
+      <!-- Avatar -->
+      <div class="dropdown">
+        
+       
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
   <main>
     <style>
       table, td, th {
@@ -35,15 +92,16 @@
       th {
         text-align: left;
       }
-      </style>
-      </head>
-      <body>
+      
+     </style>
+
+      
     <section class="genaral view for the store">
         <br>&nbsp;
-             <img src="data:image/png;base64,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"alt="the store's image"height="200px"widht="200px">
+      
      <br> 
     </center>
-    <h3>ENG
+    <!--<h3>ENG
        <br> *Discover the latest fashion trends with A&AStore. Shop the new collection of clothing, footwear,
     <br>
          accessories, beauty products and more. Order today from A&Astore.
@@ -57,48 +115,78 @@
         <br>
       ARB
       <br>*  اكتشف أحدث اتجاهات الموضة مع A&ASstore. اكتشف المجموعة الجديدة من الملابس، الأحذية،
-الملحقات ومنتجات التجميل وأكثر من ذلك. اطلب اليوم من  A&Astore.
+الملحقات ومنتجات التجميل وأكثر من ذلك. اطلب اليوم من  A&Astore.-->
     </h3>
-    <center
-    <h4>Contact Us in:
-    <br>
- <a href="https://www.facebook.com/ayoubabidli.abidli">facebook account</a><p>or click this button</p><button type="submit"> <a href="https://www.facebook.com/ayoubabidli.abidli" target="_blank">facebook</a></button>
- <br>
- <a href="https://www.instagram.com/ayoub_abidli_/">instagram account</a><p>or click this button</p><button type="submit"> <a href="https://www.instagram.com/ayoub_abidli_/" target="_blank">instagram</a></button>
-</h4>
-<br>
+    <center>
+    
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CzwsJPitOps?si=aY9jJNWrxscj-Hqn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br><h2>I am the manager of<abbr title="Abidli Ayoub fashion ">A&A fashion</abbr></h2><br>
+
 </center>
-<br>
-<br>
-<h3>To order you need to complete this :
-<form>
-    <label>Address email:</label>
-    <input type="email" required>
-<label>password</label> 
-<input type="password" required>
-<br>
-<label>budget(between 0 and 100)</label>
-<input type="range" required>
-<label>Quantity</label>
-<input type="number" required>
-<br>
-<label>Phone number</label>
-<input type="tel" required>
-<label>Confirmed?</label>
-<input type="radio" required>
-<button type="submit" id="btn">Click to submit</button>
-</h3>
-</form>
-<center>
-    <section class="the boxes">
-        <h2>Center Align Elements</h2>
-        <p>To horizontally center a block element (like div), use margin:0 auto; </p>
-        <div >
-          <p>Welcome to A&A store</p>
+<br><br><br><br>
+
+
+<div class="container" style="height: 500px;  width:500px; background-color:transparent; border:0px; margin-top:10%">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" style="height: 500px;  width:500px">
+
+      <div class="item active">
+        <img src="outf3.jpg" alt="Los Angeles" style="width: 500px;">
+        <div class="carousel-caption">
+          <h3>A&A Store</h3>
+          <p>LA is always so much fun!</p>
         </div>
+      </div>
+
+      <div class="item">
+        <img src="outf1.jpg" alt="Chicago" style="width: 500px;">
+        <div class="carousel-caption">
+          <h3>A&A store</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="outf2.jpg" alt="New York" style="width: 500px;">
+        <div class="carousel-caption">
+          <h3>A&A Store</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+      <div class="item">
+      <img src="outfit 4.jpg" alt="New York" style="width: 500px;">
+      <div class="carousel-caption">
+        <h3>A&A Store</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+    </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/CzwsJPitOps?si=aY9jJNWrxscj-Hqn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<center><footer><h4>&copy; 2023 A&A fashion</h4><footer></center>
+<script src="script.js"></script>
 </body>
 </html>
+
+

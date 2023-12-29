@@ -1,0 +1,58 @@
+/* Navbar styling */
+.nav-pills {
+    background-color: navy;
+    color: white;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  /* Form styling */
+  .form-outline {
+    border: 1px solid navy;
+  }
+  
+  .form-label {
+    color: navy;
+  }
+  
+  .btn-primary {
+    background-color: navy;
+    border: 1px solid navy;
+  }
+  
+  .btn-primary:hover {
+    background-color: black;
+    border: 1px solid black;
+  }
+  
+  /* General styling */
+  body {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Link styling */
+  a {
+    color: navy;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  /* Checkbox styling */
+  .form-check-input {
+    background-color: navy;
+  }
+  
+  /* Footer styling */
+  .footer{
+    background-color: #ec0606;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    position: fixed;
+    width: 100%;}

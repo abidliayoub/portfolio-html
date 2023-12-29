@@ -1,6 +1,67 @@
-*{
-    background-color: rgb(242, 242, 239);
-} 
+nav{
+    background-color: rgb(22, 24, 33);
+    height: 200px;
+    width: 100%;
+    border: 3px, dashed, black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+nav > img {
+    
+align-items: flex-start;
+}
+ul li{
+    display: inline;
+    color: rgb(0, 61, 114);
+    align-items: flex-end;
+    position: relative;
+}
+a{
+    color: rgb(184, 42, 42);
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(164, 123, 123);
+}
+
+iframe{
+    margin-top: 10%;
+}
+#myCarousel img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #myCarousel {
+    max-width: 500px;
+    margin: auto;
+    background-color: transparent
+  }
+
+
+
+
+
+
+
+
+
+
+
 h1,h2{
     font-size: large;
     color: rgb(36, 32, 235);
@@ -14,13 +75,9 @@ p, article{
 #btn{
     background-color: rgb(231, 189, 218);
     font-size: medium;
-    color: rgb(5, 5, 5);
+    color: rgb(244, 7, 7);
 }
-nav{
-    background-color: rgb(22, 24, 33);
-    height: 250px;
-    border: 3px, dashed, black;
-}
+
 label > form {
     text-align: left;
 }
@@ -55,10 +112,58 @@ label > form {
 .h1,h2{
     display: inline;
 }
-.nav{
-   position: fixed;
-    width: 100%;
-    top: 0px;
-background-color: blueviolet;
-display: inline;
+.body{ 
+    background-color: aquamarine;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-box h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.product-box p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.product-box .price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-box button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-box button:hover {
+    background-color: #45a049;
 }
